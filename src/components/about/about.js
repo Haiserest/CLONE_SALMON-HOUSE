@@ -17,7 +17,13 @@ export default function AppAbout(){
         return (
             <div className='crew-box'>
                 <img className='crew-avatar' src={item.avatar}/>
-                <h4>{item.fname} {item.lname}</h4>
+                <div className='crew-overlay'>
+                    <div className='crew-detail'>
+                        <h4>{item.fname} {item.lname}</h4>
+                        <h5>{item.username}</h5>
+                    </div>
+                </div>
+                
             </div>
         );
     });

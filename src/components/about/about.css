@@ -25,11 +25,41 @@
 
 .crew-box{
     margin: 10px;
+    position: relative;
 }
 
 .crew-avatar{
-    width: 180px;
-    height: 180px;
+    width: 220px;
+    height: 220px;
+}
+
+.crew-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    border-radius: 100%;
+    transition: 0.4s ease-in-out;
+    background: #ff845bc0;
+    cursor: pointer;
+}
+
+.crew-detail{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.crew-detail h5{
+    color: white;
+}
+
+.crew-box:hover .crew-overlay{
+    opacity: 1;
 }
 
 .about-partner{
