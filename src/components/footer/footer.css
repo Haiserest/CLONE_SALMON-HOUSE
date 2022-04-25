@@ -1,0 +1,43 @@
+.footer-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-footer{
+    bottom: 0;
+}
+
+.footer-menu{
+    padding: 10px 5px;
+    background-color: black;
+}
+
+.footer-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    color: white;
+    list-style-type: none;
+    position: relative;
+    margin-right: 40px;
+}
+
+.ftext-item{
+    position: absolute;
+    left: 45px;
+}
+
+.f-items{
+    margin: 10px 15px;
+    right: 15px;
+}
+
+.footer-link{
+    margin: 10px 10px 10px 20px;
+}
+
+.icon-footer{
+    color: white;
+    transform: scale(1.5, 1.5);
+}

@@ -1,0 +1,37 @@
+.contact-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.contact-text{
+    text-align: center;
+}
+
+.head-contact{
+    font-size: 40px;
+    color: #ff835b;
+}
+
+.detail-contact{
+    font-size: 22px;
+    margin: auto;
+}
+
+.mail-contact{
+    font-size: 22px;
+    margin: 15px auto 50px;
+}
+
+.contact-image{
+    justify-content: center;
+    margin: 0px auto 20px;
+    display: flex;
+
+}
+
+.map{
+    width: 1000px;
+    height: 520px;
+}

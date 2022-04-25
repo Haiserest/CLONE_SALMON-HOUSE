@@ -1,0 +1,40 @@
+.header-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .logo-header{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo-web{
+    width: 200px;
+    height: 150px;
+  }
+  
+  .nav-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #8f8f8f;
+    border-bottom: 1px solid #8f8f8f;
+    list-style-type: none;
+  }
+  
+  .nav-items{
+    margin: 10px 15px;
+  }
+  
+  .h-items{
+    font: bold;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .h-items:hover{
+    color: #ff835b;
+  }

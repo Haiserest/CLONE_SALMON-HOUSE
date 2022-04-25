@@ -1,0 +1,39 @@
+.about-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-text{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+
+.about-crew{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.crew-mem{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.crew-box{
+    margin: 10px;
+}
+
+.crew-avatar{
+    width: 180px;
+    height: 180px;
+}
+
+.about-partner{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
