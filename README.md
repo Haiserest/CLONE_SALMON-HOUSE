@@ -3,17 +3,14 @@
 ### This Repository is test skill develop myself
 
 ref: 
-    `https://salmonhouse.tv/`
-
----
-NPM:
-| NPM | command |
-|-----|---------|
-|react-router-dom | npm install react-router-dom |
-|ant design | npm install antd |
+    <p>https://salmonhouse.tv/</p>
 
 ---
 
 API:
+    <p>https://www.mecallapi.com</p>
 
-`https://www.mecallapi.com`
+| NPM | command |
+|-----|---------|
+|react-router-dom | `npm install react-router-dom` |
+|ant design | `npm install antd` |
