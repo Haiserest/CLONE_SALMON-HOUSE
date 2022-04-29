@@ -1,0 +1,16 @@
+.client-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.client-mem{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0px auto;
+}
+
+.client-image{
+    width: 200px;
+}

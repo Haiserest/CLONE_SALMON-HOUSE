@@ -63,7 +63,17 @@
 }
 
 .about-partner{
-    width: 50%;
-    margin: auto;
+    width: 70%;
+    margin: 0px auto;
     text-align: center;
+}
+
+.partner-mem{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partner-image{
+    width: 70%;
+    cursor: pointer;
 }

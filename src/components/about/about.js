@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './about.css';
+import partnerList from './partner_data'
 
 export default function AppAbout(){
 
@@ -28,6 +29,14 @@ export default function AppAbout(){
         );
     });
 
+    const partnerElements = partnerList.map((partner) =>{
+        return (
+            <div className='partner-box'>
+                <img className='partner-image' src={partner.thum} title={partner.name}/>
+            </div>
+        );
+    });
+
     return(
 
         <div className='about-container'>
@@ -52,7 +61,9 @@ export default function AppAbout(){
             </div>
             <div className='about-partner'>
                 <h3> OUR PARTNERS</h3>
-
+                <div className='partner-mem'>
+                    {partnerElements}
+                </div>
             </div>
 
         </div>

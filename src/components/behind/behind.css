@@ -1,0 +1,39 @@
+.behind-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.behind-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 50%;
+    margin: 0px auto;
+}
+
+.behind-box{ 
+    position: relative;
+    width: 400px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.behind-image{
+    width: 100%;
+}
+
+.behind-title{
+    position: absolute;
+    bottom: 5px;
+    padding: 10px 0px;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.562);
+    text-align: center;
+}
+
+.behind-box:hover .behind-title{
+    background-color: rgba(0, 0, 0, 0.774);
+}

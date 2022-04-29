@@ -1,0 +1,14 @@
+.error-container{
+    margin: -16px 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.error-page{
+    display: flex;
+}
+
+.error-image{
+    width: 100%;
+    height: 100%;
+}
